@@ -1,0 +1,12 @@
+﻿Build started 1/3/2020 4:05:54 AM.
+     1>Project "C:\Users\USER\documents\visual studio 2013\Projects\CGL-Project\CGL-Project\CGL-Project.vcxproj" on node 2 (Build target(s)).
+     1>Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\USER\documents\visual studio 2013\Projects\CGL-Project\Debug\CGL-Project.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib irrKlang.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\USER\documents\visual studio 2013\Projects\CGL-Project\Debug\CGL-Project.pdb" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\USER\documents\visual studio 2013\Projects\CGL-Project\Debug\CGL-Project.lib" /MACHINE:X86 Debug\Map.obj
+         Debug\Source.obj
+     1>Source.obj : error LNK2019: unresolved external symbol "__declspec(dllimport) class irrklang::ISoundEngine * __cdecl irrklang::createIrrKlangDevice(enum irrklang::E_SOUND_OUTPUT_DRIVER,int,char const *,char const *)" (__imp_?createIrrKlangDevice@irrklang@@YAPAVISoundEngine@1@W4E_SOUND_OUTPUT_DRIVER@1@HPBD1@Z) referenced in function "int __cdecl DrawGLScene(void)" (?DrawGLScene@@YAHXZ)
+     1>C:\Users\USER\documents\visual studio 2013\Projects\CGL-Project\Debug\CGL-Project.exe : fatal error LNK1120: 1 unresolved externals
+     1>Done Building Project "C:\Users\USER\documents\visual studio 2013\Projects\CGL-Project\CGL-Project\CGL-Project.vcxproj" (Build target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:00:03.45
