@@ -26,6 +26,7 @@ Open the solution using VS 2013, hit F5 and the compilation starts.
 - Sometimes the snake pass through coins and obstacles
 - Sometimes the game freeze when going to the next level
 - Sometimes the snake moves abnormally
+
 If you find more bugs please open an issue and report it, and i will happily ignore that report :) 
 
 # Special Thanks To
